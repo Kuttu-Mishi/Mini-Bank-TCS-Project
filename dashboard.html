@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h2>Welcome, {{ user['username'] }}</h2>
+  <p>Balance: ${{ user['balance'] }}</p>
+  <a href="/send">Send Money</a> | <a href="/logout">Logout</a>
+</body>
+</html>
